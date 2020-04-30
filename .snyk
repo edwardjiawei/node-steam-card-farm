@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - steamcommunity > async > lodash:
+        patched: '2020-04-30T21:51:01.098Z'
+    - steam-user > async > lodash:
+        patched: '2020-04-30T21:51:01.098Z'
+    - steam-tradeoffer-manager > steamcommunity > async > lodash:
+        patched: '2020-04-30T21:51:01.098Z'
+    - steam-user > steam-client > async > lodash:
+        patched: '2020-04-30T21:51:01.098Z'
