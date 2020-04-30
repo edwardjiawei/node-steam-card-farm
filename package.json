@@ -4,7 +4,9 @@
   "description": "Node script that farm cards for you, on multiple accounts!",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": {
     "name": "Arkadiusz Sygulski",
@@ -28,6 +30,8 @@
     "steam-tradeoffer-manager": "^1.15.1",
     "steam-user": "^3.2.0",
     "steamcommunity": "^3.14.1593",
-    "winston": "^2.1.1"
-  }
+    "winston": "^2.1.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
